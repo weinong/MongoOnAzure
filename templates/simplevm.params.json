@@ -1,1 +1,21 @@
-<html><body>You are being <a href="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-simple-linux-vm/azuredeploy.parameters.json">redirected</a>.</body></html>
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "uniqueStorageAccount"
+    },
+    "adminUsername": {
+      "value": "userName"
+    },
+    "adminPassword": {
+      "value": "password"
+    },
+    "dnsNameForPublicIP": {
+      "value": "uniqueDNS"
+    },
+    "ubuntuOSVersion": {
+      "value": "14.04.2-LTS"
+    }
+  }
+}
