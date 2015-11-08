@@ -75,29 +75,16 @@
         "description": "Size of vm"
       }
     },
-    "storageAccountName": {
-      "type": "string",
-      "defaultValue": "",
-      "metadata": {
-        "description": "The name of storage account which has the custom script."
-      }
-    },
-    "storageAccountKey": {
-      "type": "securestring",
-      "defaultValue": "",
-      "metadata": {
-        "description": "The access key of storage account which has the custom script."
-      }
-    },
     "fileUris": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "https://raw.githubusercontent.com/weinong/MongoOnAzure/master/scripts/install-mongo.sh",
       "metadata": {
         "description": "The uri list of files. Split by a space."
       }
     },
     "commandToExecute": {
       "type": "string",
+      "defaultValue": "sh install-mongo.sh",
       "metadata": {
         "description": "The command to execute."
       }
@@ -254,10 +241,6 @@
         "settings": {
           "fileUris": "[split(parameters('fileUris'), ' ')]",
           "commandToExecute": "[parameters('commandToExecute')]"
-        },
-        "protectedSettings": {
-          "storageAccountName": "[parameters('storageAccountName')]",
-          "storageAccountKey": "[parameters('storageAccountKey')]"
         }
       }
     }
