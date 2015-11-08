@@ -1,4 +1,4 @@
-# Step by step tutorial to deploy MongoDB on Windows Azure using Azure Resource Manager template deployment
+## Step by step tutorial to deploy MongoDB on Windows Azure using Azure Resource Manager template deployment
 Most of these templates are based on https://github.com/Azure/azure-quickstart-templates
 The effort in this repo is to provide a list of templates where you can learn linearly about Azure Resource Manager template deployment toward having MongoDB running on Windows Azure.
 
