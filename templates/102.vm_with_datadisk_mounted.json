@@ -40,7 +40,7 @@
     },
     "fileUris": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/90bcf336fed51c5c1e009563fa558463afab4d8d/shared_scripts/ubuntu/vm-disk-utils-0.1.sh",
+      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh",
       "metadata": {
         "description": "The uri list of files. Split by a space."
       }
